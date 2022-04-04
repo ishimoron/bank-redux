@@ -1,0 +1,47 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cash {
+    font-size: 5rem;
+    color: rebeccapurple;
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+.button > button {
+    padding: 10px 50px;
+    background: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: all .4ms;
+    margin-left: 1rem;
+}
+
+.button > button:hover {
+    background: aqua;
+}
+
+.users {
+    padding: 10px 100px;
+    background: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4ms;
+    margin-top: 1rem;
+}
+
+.delete_btn {
+    padding: 5px 25px;
+    background: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+
+}
